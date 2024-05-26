@@ -5,7 +5,7 @@ For artisans, Artify provides a platform to showcase their craftsmanship to a gl
 For buyers, Artify is a treasure trove of exquisite handmade items, from intricately woven textiles to delicately sculpted ceramics, allowing them to explore and support the diverse talents of artisans worldwide.
 # Run Project 
 ### Frontend
-##### cd fronetend > npm i > npm start
+##### cd frontend > npm i > npm start
 ### Backend
 ##### cd backend > npm i > npm run dev 
 
