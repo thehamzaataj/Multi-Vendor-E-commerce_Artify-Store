@@ -8,4 +8,6 @@ For buyers, Artify is a treasure trove of exquisite handmade items, from intrica
 ##### cd frontend > npm i > npm start
 ### Backend
 ##### cd backend > npm i > npm start 
+### Or
+##### Npm i > npm run dev
 
