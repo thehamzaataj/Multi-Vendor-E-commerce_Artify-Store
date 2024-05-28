@@ -4,7 +4,7 @@ import { Link, useNavigate } from "react-router-dom";
 import { RxAvatar } from "react-icons/rx";
 import axios from "axios";
 import { toast } from "react-toastify";
-import styles from "../../styles/style.js";
+import styles from "../../styles/style"; // Ensure this path is correct
 
 const Signup = () => {
     const [email, setEmail] = useState("");
@@ -154,6 +154,5 @@ const Signup = () => {
         </div>
     );
 }
-// not working please i will fix it
 
 export default Signup;
