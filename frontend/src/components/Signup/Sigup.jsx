@@ -28,14 +28,18 @@ const Signup = () => {
         newForm.append("email", email);
         newForm.append("password", password);
 
+
         try {
+
             const res = await axios.post(`http://localhost:8000/api/v2/user/create-user`, newForm, config);
             toast.success(res.data.message);
             setName("");
             setEmail("");
             setPassword("");
             setAvatar(null);
+        
             navigate("/login");
+            console.log(res)
         } catch (error) {
             toast.error(error.response?.data?.message || "Something went wrong!");
         }
